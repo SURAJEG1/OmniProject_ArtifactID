@@ -8,18 +8,18 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		ITestListener.super.onTestStart(result);
+		System.out.println(result.getMethod().getMethodName() + "Successfully Start");
 	}
 
 	
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		ITestListener.super.onTestSuccess(result);
+		System.out.println(result.getMethod().getMethodName() + "Successfully Executed");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		ITestListener.super.onTestFailure(result);
+		System.out.println(result.getMethod().getMethodName() + "Got failed & Screenshot Captured");
 	}
 
 	
@@ -49,7 +49,7 @@ public class Listener implements ITestListener {
 	
 	@Override
 	public void onFinish(ITestContext context) {
-		ITestListener.super.onFinish(context);
+		
 	}
 	
 	
