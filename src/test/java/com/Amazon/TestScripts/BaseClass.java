@@ -13,12 +13,12 @@ import com.Amazon.Utilities.ReadConfig;
 public class BaseClass {
 	
 	//Create Object of ReadConfig Class
-	public static WebDriver driver;
+	
 	ReadConfig readConfig = new ReadConfig();
 	String url = readConfig.getBaseUrl();
 	String browser = readConfig.getBrowser();
 	
-	
+	public static WebDriver driver;
 	@BeforeClass
 	public void setup() 
 	{
