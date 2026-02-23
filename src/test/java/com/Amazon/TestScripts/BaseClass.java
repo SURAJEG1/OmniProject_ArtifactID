@@ -27,8 +27,9 @@ public class BaseClass {
 		case "chrome":
 			ChromeOptions co = new ChromeOptions();
 			co.addArguments("--incognito");
+			co.addArguments("--start-maximized");
 			driver = new ChromeDriver(co);
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			break;
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

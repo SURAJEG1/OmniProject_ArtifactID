@@ -31,7 +31,7 @@ public class AddToCart_TestScript extends BaseClass {
 	{
 		AddToCart_PageObject atc = new AddToCart_PageObject(driver);
 		atc.addToCart();
-		atc.screenshot();
+		//atc.screenshot();
 	}
 	
 	
