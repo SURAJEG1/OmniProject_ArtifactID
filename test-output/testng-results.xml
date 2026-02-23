@@ -2,28 +2,38 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-24T00:04:29 IST" name="Default suite" finished-at="2026-02-24T00:05:06 IST" duration-ms="36317">
+  <suite started-at="2026-02-24T00:45:27 IST" name="Suite" finished-at="2026-02-24T00:46:09 IST" duration-ms="41696">
     <groups>
     </groups>
-    <test started-at="2026-02-24T00:04:29 IST" name="Default test" finished-at="2026-02-24T00:05:06 IST" duration-ms="36317">
-      <class name="com.Amazon.TestScripts.AddToCart_TestScript">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.AddToCart_TestScript@5bda8e08]" started-at="2026-02-24T00:04:29 IST" name="setup" finished-at="2026-02-24T00:04:39 IST" duration-ms="9498" status="PASS">
+    <test started-at="2026-02-24T00:45:27 IST" name="Test" finished-at="2026-02-24T00:46:09 IST" duration-ms="41696">
+      <class name="com.Amazon.TestScripts.AddToCart_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@1fa121e2]" started-at="2026-02-24T00:45:27 IST" name="setup" finished-at="2026-02-24T00:45:32 IST" duration-ms="4475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Tc001_SearchProduct()[pri:1, instance:com.Amazon.TestScripts.AddToCart_TestScript@5bda8e08]" started-at="2026-02-24T00:04:39 IST" name="Tc001_SearchProduct" finished-at="2026-02-24T00:04:59 IST" duration-ms="19741" status="PASS">
+        <test-method signature="AddToCart()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@1fa121e2]" started-at="2026-02-24T00:45:32 IST" name="AddToCart" finished-at="2026-02-24T00:45:54 IST" duration-ms="22011" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001_SearchProduct -->
-        <test-method signature="Tc002_AddToCart()[pri:2, instance:com.Amazon.TestScripts.AddToCart_TestScript@5bda8e08]" started-at="2026-02-24T00:04:59 IST" name="Tc002_AddToCart" finished-at="2026-02-24T00:05:02 IST" duration-ms="2980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc002_AddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.AddToCart_TestScript@5bda8e08]" started-at="2026-02-24T00:05:02 IST" name="tearDown" finished-at="2026-02-24T00:05:06 IST" duration-ms="3879" status="PASS">
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@1fa121e2]" started-at="2026-02-24T00:45:54 IST" name="tearDown" finished-at="2026-02-24T00:45:54 IST" duration-ms="714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Amazon.TestScripts.AddToCart_TestScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Amazon.TestScripts.AddToCart_Test -->
+      <class name="com.Amazon.TestScripts.SearchProducts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@7eac9008]" started-at="2026-02-24T00:45:54 IST" name="setup" finished-at="2026-02-24T00:45:57 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@7eac9008]" started-at="2026-02-24T00:45:57 IST" name="searchProduct" finished-at="2026-02-24T00:46:08 IST" duration-ms="11473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@7eac9008]" started-at="2026-02-24T00:46:08 IST" name="tearDown" finished-at="2026-02-24T00:46:09 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.TestScripts.SearchProducts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -7,7 +7,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.Amazon.TestScripts.BaseClass"/>
-      <class name="com.Amazon.TestScripts.AddToCart_TestScript"/>
+      <class name="com.Amazon.TestScripts.AddToCart_Test"/>
+      <class name="com.Amazon.TestScripts.SearchProducts"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

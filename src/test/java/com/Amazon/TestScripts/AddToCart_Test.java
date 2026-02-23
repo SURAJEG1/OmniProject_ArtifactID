@@ -13,23 +13,14 @@ import org.testng.annotations.Test;
 import com.Amazon.PageObjectClasses.AddToCart_PageObject;
 
 
-public class AddToCart_TestScript extends BaseClass {
-
+public class AddToCart_Test extends BaseClass {
 	
-	@Test(priority=1)
-	public void Tc001_SearchProduct() 
+	@Test
+	public void AddToCart() throws IOException 
 	{
 		driver.get(url);
 		AddToCart_PageObject atc = new AddToCart_PageObject(driver);
 		atc.searchProduct("mobile");
-	}
-	
-	
-	
-	@Test(priority=2)
-	public void Tc002_AddToCart() throws IOException 
-	{
-		AddToCart_PageObject atc = new AddToCart_PageObject(driver);
 		atc.addToCart();
 		//atc.screenshot();
 	}
