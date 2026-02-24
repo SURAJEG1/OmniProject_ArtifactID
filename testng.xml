@@ -9,6 +9,7 @@
       <class name="com.Amazon.TestScripts.BaseClass"/>
       <class name="com.Amazon.TestScripts.AddToCart_Test"/>
       <class name="com.Amazon.TestScripts.SearchProducts"></class>
+      <class name="com.Amazon.TestScripts.CheckOut_Test"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

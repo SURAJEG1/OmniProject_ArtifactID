@@ -16,12 +16,18 @@ public class ScrollingWindow {
 	
 	// Create all methods of windowScrolling 
 	
-	public void windowScroll_Down500() 
+	public void windowScroll_Down300() 
 	{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,500)");
+		js.executeScript("window.scrollBy(0,300)");
 	}
 	
+	
+	public void windowScroll_Down400() 
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,400)");
+	}
 	
 	public void windowScroll_Up500() 
 	{

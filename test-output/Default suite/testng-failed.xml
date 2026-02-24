@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Amazon.TestScripts.AddToCart_TestScript">
+      <class name="com.Amazon.TestScripts.CheckOut_Test">
         <methods>
-          <include name="Tc001_SearchProduct"/>
+          <include name="checkOutProcess"/>
           <include name="tearDown"/>
-          <include name="Tc002_AddToCart"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.Amazon.TestScripts.AddToCart_TestScript -->
+      </class> <!-- com.Amazon.TestScripts.CheckOut_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
