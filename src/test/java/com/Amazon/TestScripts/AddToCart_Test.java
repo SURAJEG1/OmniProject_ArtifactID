@@ -18,10 +18,14 @@ public class AddToCart_Test extends BaseClass {
 	@Test
 	public void AddToCart() throws IOException 
 	{
+		//Open Url
 		driver.get(url);
+		logger.info("Url Open");
 		AddToCart_PageObject atc = new AddToCart_PageObject(driver);
 		atc.searchProduct("mobile");
+		logger.info("Enter 'mobile' on searchBox");
 		atc.addToCart();
+		logger.info("Clicked on AddToCart link");
 		//atc.screenshot();
 	}
 	

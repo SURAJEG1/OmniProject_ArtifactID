@@ -11,11 +11,13 @@ public class SearchProducts extends BaseClass{
 	
 	
 	@Test
-	public void searchProduct() 
+	public void checkOut_TestCase() 
 	{
 		driver.get(url);
+		logger.info("Url Open");
 		addToCart = new AddToCart_PageObject(driver);
 		addToCart.searchProduct("laptop");
+		logger.info("Enter 'laptop' on searchBox");
 	}
 	
 	

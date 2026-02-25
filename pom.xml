@@ -16,9 +16,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>17</maven.compiler.release>
 	</properties>
-	
-	
-	
+
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -71,12 +70,29 @@
 		</dependency>
 
 
+		<!-- Source:
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.25.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<!-- Source:
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.25.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+
 	</dependencies>
 
-	
-	
-	
-	
+
 	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven
 			defaults (may be moved to parent pom) -->
@@ -144,11 +160,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-
-		
-
-
 
 
 </project>

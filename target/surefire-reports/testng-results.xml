@@ -1,122 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-25T18:29:56 IST" name="Suite" finished-at="2026-02-25T18:31:03 IST" duration-ms="67080">
+  <suite started-at="2026-02-26T01:12:51 IST" name="Suite" finished-at="2026-02-26T01:14:19 IST" duration-ms="87708">
     <groups>
     </groups>
-    <test started-at="2026-02-25T18:29:56 IST" name="Test" finished-at="2026-02-25T18:31:03 IST" duration-ms="67080">
+    <test started-at="2026-02-26T01:12:51 IST" name="Test" finished-at="2026-02-26T01:14:19 IST" duration-ms="87708">
       <class name="com.Amazon.TestScripts.CheckOut_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@a9cd3b1]" started-at="2026-02-25T18:30:36 IST" name="setup" finished-at="2026-02-25T18:30:38 IST" duration-ms="2078" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@64cd705f]" started-at="2026-02-26T01:13:27 IST" name="setup" finished-at="2026-02-26T01:13:28 IST" duration-ms="1539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkOutProcess()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@a9cd3b1]" started-at="2026-02-25T18:30:38 IST" name="checkOutProcess" finished-at="2026-02-25T18:31:02 IST" duration-ms="24226" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=145.0.7632.110)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [da00e86c1468b4ccd8cc57bcb8511304, clickElement {id=f.DACB5C421D72660344E1A5ADD7C361D4.d.23EE0208D0C6949164C3F7CFA3899EEA.e.385}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59418}, goog:processID: 14964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59418/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (da00e86c1468b4ccd8cc57bcb8511304)] -> xpath: //a[@aria-label='Apply the filter POCO to narrow results']//i[@class='a-icon a-icon-checkbox']]
-Session ID: da00e86c1468b4ccd8cc57bcb8511304]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=145.0.7632.110)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [da00e86c1468b4ccd8cc57bcb8511304, clickElement {id=f.DACB5C421D72660344E1A5ADD7C361D4.d.23EE0208D0C6949164C3F7CFA3899EEA.e.385}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59418}, goog:processID: 14964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59418/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (da00e86c1468b4ccd8cc57bcb8511304)] -> xpath: //a[@aria-label='Apply the filter POCO to narrow results']//i[@class='a-icon a-icon-checkbox']]
-Session ID: da00e86c1468b4ccd8cc57bcb8511304
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
-at com.Amazon.PageObjectClasses.CheckoutProcess_PageObject.searchProduct(CheckoutProcess_PageObject.java:71)
-at com.Amazon.TestScripts.CheckOut_Test.checkOutProcess(CheckOut_Test.java:18)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="checkOutProcess()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@64cd705f]" started-at="2026-02-26T01:13:28 IST" name="checkOutProcess" finished-at="2026-02-26T01:14:18 IST" duration-ms="49553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutProcess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@a9cd3b1]" started-at="2026-02-25T18:31:02 IST" name="tearDown" finished-at="2026-02-25T18:31:03 IST" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.CheckOut_Test@64cd705f]" started-at="2026-02-26T01:14:18 IST" name="tearDown" finished-at="2026-02-26T01:14:19 IST" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amazon.TestScripts.CheckOut_Test -->
       <class name="com.Amazon.TestScripts.AddToCart_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@2667f029]" started-at="2026-02-25T18:29:56 IST" name="setup" finished-at="2026-02-25T18:30:02 IST" duration-ms="5997" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@57c758ac]" started-at="2026-02-26T01:12:51 IST" name="setup" finished-at="2026-02-26T01:12:59 IST" duration-ms="7354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddToCart()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@2667f029]" started-at="2026-02-25T18:30:02 IST" name="AddToCart" finished-at="2026-02-25T18:30:17 IST" duration-ms="15114" status="PASS">
+        <test-method signature="AddToCart()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@57c758ac]" started-at="2026-02-26T01:12:59 IST" name="AddToCart" finished-at="2026-02-26T01:13:16 IST" duration-ms="16967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@2667f029]" started-at="2026-02-25T18:30:17 IST" name="tearDown" finished-at="2026-02-25T18:30:18 IST" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.AddToCart_Test@57c758ac]" started-at="2026-02-26T01:13:16 IST" name="tearDown" finished-at="2026-02-26T01:13:16 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amazon.TestScripts.AddToCart_Test -->
       <class name="com.Amazon.TestScripts.SearchProducts">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@67a20f67]" started-at="2026-02-25T18:30:18 IST" name="setup" finished-at="2026-02-25T18:30:20 IST" duration-ms="1951" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@a9cd3b1]" started-at="2026-02-26T01:13:16 IST" name="setup" finished-at="2026-02-26T01:13:18 IST" duration-ms="1482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProduct()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@67a20f67]" started-at="2026-02-25T18:30:20 IST" name="searchProduct" finished-at="2026-02-25T18:30:35 IST" duration-ms="15367" status="PASS">
+        <test-method signature="checkOut_TestCase()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@a9cd3b1]" started-at="2026-02-26T01:13:18 IST" name="checkOut_TestCase" finished-at="2026-02-26T01:13:26 IST" duration-ms="8602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@67a20f67]" started-at="2026-02-25T18:30:35 IST" name="tearDown" finished-at="2026-02-25T18:30:36 IST" duration-ms="726" status="PASS">
+        </test-method> <!-- checkOut_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.TestScripts.SearchProducts@a9cd3b1]" started-at="2026-02-26T01:13:26 IST" name="tearDown" finished-at="2026-02-26T01:13:27 IST" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

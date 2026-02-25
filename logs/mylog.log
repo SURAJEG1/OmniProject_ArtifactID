@@ -1,0 +1,20 @@
+[INFO ] 2026-02-26 01:11:11.631 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-02-26 01:11:23.325 [main] OmniProject_ArtifactID - Enter 'mobile' on searchBox
+[INFO ] 2026-02-26 01:11:26.158 [main] OmniProject_ArtifactID - Clicked on AddToCart link
+[INFO ] 2026-02-26 01:13:00.862 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-02-26 01:13:13.135 [main] OmniProject_ArtifactID - Enter 'mobile' on searchBox
+[INFO ] 2026-02-26 01:13:16.214 [main] OmniProject_ArtifactID - Clicked on AddToCart link
+[INFO ] 2026-02-26 01:13:22.197 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-02-26 01:13:26.891 [main] OmniProject_ArtifactID - Enter 'laptop' on searchBox
+[INFO ] 2026-02-26 01:13:31.943 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-02-26 01:13:37.553 [main] OmniProject_ArtifactID - Enter mobile on searchBox and enter
+[INFO ] 2026-02-26 01:13:44.154 [main] OmniProject_ArtifactID - Clicked on Brands See more Option
+[INFO ] 2026-02-26 01:13:46.592 [main] OmniProject_ArtifactID - Selected Brand as POCO
+[INFO ] 2026-02-26 01:13:49.194 [main] OmniProject_ArtifactID - Clicked on Product Price link
+[INFO ] 2026-02-26 01:14:06.378 [main] OmniProject_ArtifactID - Clicked on AddToCart link
+[INFO ] 2026-02-26 01:14:07.978 [main] OmniProject_ArtifactID - Clicked on Update Location link
+[INFO ] 2026-02-26 01:14:08.612 [main] OmniProject_ArtifactID - Enter pincode in 'Enter An Indian Pincode box' 
+[INFO ] 2026-02-26 01:14:08.825 [main] OmniProject_ArtifactID - Clicked on Apply link
+[INFO ] 2026-02-26 01:14:16.486 [main] OmniProject_ArtifactID - Clicked on Proceed To Buy link
+[INFO ] 2026-02-26 01:14:16.750 [main] OmniProject_ArtifactID - Clicked on Sign In Or Crate Account Link
+[INFO ] 2026-02-26 01:14:18.476 [main] OmniProject_ArtifactID - Clicked on Continue link
