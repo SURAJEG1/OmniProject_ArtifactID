@@ -8,7 +8,7 @@ public class ReadConfig {
 	
 	//Create object of "Properties"
 	Properties properties;
-	String path = "E:\\InfoEge Automation Project\\OmniProject_ArtifactID\\src\\test\\java\\ConfigurationResource\\Config.properties";
+	String path = "E:\\InfoEge Automation Project\\OmniProject_ArtifactID\\src\\main\\java\\ConfigurationResource\\Config.properties";
 	
 	public ReadConfig() 
 	{
