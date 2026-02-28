@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import com.Amazon.PageObjectClasses.AddToCart_PageObject;
 
 
-public class AddToCart_Test extends BaseClass {
+public class AddToCart_TC_AMZ_004 extends BaseClass {
 	
 	@Test
 	public void AddToCart() throws IOException 

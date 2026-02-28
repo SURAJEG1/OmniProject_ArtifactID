@@ -7,7 +7,7 @@ import com.Amazon.Listener.Listener;
 import com.Amazon.PageObjectClasses.AddToCart_PageObject;
 import com.Amazon.PageObjectClasses.CheckoutProcess_PageObject;
 @Listeners(Listener.class)
-public class CheckOut_Test extends BaseClass{
+public class CheckOut_TC_AMZ_005 extends BaseClass{
 	
 	CheckoutProcess_PageObject checkoutprocess;
 	AddToCart_PageObject addToCart;

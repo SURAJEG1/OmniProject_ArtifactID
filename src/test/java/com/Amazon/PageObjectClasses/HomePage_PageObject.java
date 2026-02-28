@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class HomePage_PageObject {
 	//create object of WebDriver;
@@ -35,9 +36,12 @@ public class HomePage_PageObject {
 	
 	
 	
-	
-	
-
+	// Validation
+	public void checkUrlOfHomePage() 
+	{
+        String title = driver.getTitle();
+        Assert.assertTrue(title.contains("Amazon"));
+	}
 
 
 

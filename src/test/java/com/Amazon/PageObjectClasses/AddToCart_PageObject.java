@@ -25,11 +25,12 @@ public class AddToCart_PageObject {
 	
 
 	//WebElement
-	@FindBy(xpath = "//input[contains(@id,'twotabsearchtextbox')]") 
+	@FindBy (xpath = "//input[contains(@id,'twotabsearchtextbox')]") 
 	WebElement searchBox;
 	
-	@FindBy(xpath ="//button[contains(@id,'a-autoid-3-announce')]") 
+	@FindBy (xpath ="//button[contains(@id,'a-autoid-3-announce')]") 
 	WebElement addToCart;
+	
 	
 	
 	
@@ -53,6 +54,17 @@ public class AddToCart_PageObject {
 		ScreenshotUtility screenshot = new ScreenshotUtility(driver);
 		screenshot.screenshot();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
