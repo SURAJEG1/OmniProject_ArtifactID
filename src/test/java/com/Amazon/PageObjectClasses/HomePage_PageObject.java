@@ -19,28 +19,30 @@ public class HomePage_PageObject {
 
 
 
-
-	@FindBy(id = "twotabsearchtextbox")
+//WebElements 
+	@FindBy (id = "twotabsearchtextbox")
 	WebElement searchBox;
 
-	@FindBy(id = "nav-search-submit-button")
+	@FindBy (id = "nav-search-submit-button")
 	WebElement searchBtn;
 	
+	@FindBy (id = "nav-link-accountList-nav-line-1") 
+	WebElement AccountAndLists;
 	
 	
 	
+	
+	
+	//Action Methods
 	public void searchProduct(String product) {
         searchBox.sendKeys(product);
         searchBtn.click();
     }
 	
 	
-	
-	// Validation
-	public void checkUrlOfHomePage() 
+	public void clickOnAccountAndLists() 
 	{
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Amazon"));
+		AccountAndLists.click();
 	}
 
 

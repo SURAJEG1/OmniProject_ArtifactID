@@ -19,13 +19,15 @@ public class AddToCart_TC_AMZ_004 extends BaseClass {
 	public void AddToCart() throws IOException 
 	{
 		//Open Url
-		driver.get(url);
+		driver.get(amazonUrl);
 		logger.info("Url Open");
 		AddToCart_PageObject atc = new AddToCart_PageObject(driver);
 		atc.searchProduct("mobile");
 		logger.info("Enter 'mobile' on searchBox");
 		atc.addToCart();
 		logger.info("Clicked on AddToCart link");
+		pageScourceValication("Added to Cart");
+		logger.info("Validate Page source of _Added to Cart");
 		//atc.screenshot();
 	}
 	

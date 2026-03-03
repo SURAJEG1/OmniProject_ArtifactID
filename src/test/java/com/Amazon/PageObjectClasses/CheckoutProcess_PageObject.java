@@ -1,10 +1,13 @@
 package com.Amazon.PageObjectClasses;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.Amazon.Utilities.ScrollingWindow;
 import com.Amazon.Utilities.WindowHandles;
@@ -28,7 +31,13 @@ public class CheckoutProcess_PageObject {
 	WebElement BrandsSeeMore;
 
 	@FindBy (xpath = "//a[@aria-label='Apply the filter POCO to narrow results']//i[@class='a-icon a-icon-checkbox']") 
-	WebElement selectBrand_POCO;
+	WebElement applyFilterOnBrand_POCO;
+	
+	@FindBy (xpath = "//span[text()='Samsung']") 
+	WebElement applyFilterOnBrand_Apple;
+	
+	@FindBy (css = ".s-title-instructions-style") 
+	List<WebElement> products;
 
 	@FindBy (linkText = "POCO C75 5G, Silver Stardust (4GB, 64GB)") 
 	WebElement clickOnProductPrice;
@@ -67,8 +76,25 @@ public class CheckoutProcess_PageObject {
 	public void selectBrandPoco() throws InterruptedException {
 		//Filter and click on POCO brand
 		Thread.sleep(2000);
-		selectBrand_POCO.click();
+		applyFilterOnBrand_POCO.click();
 	}
+	
+	
+	public void selectBrandApple() throws InterruptedException 
+	{
+		//Filter apply on Apple brand
+		Thread.sleep(2000);
+		applyFilterOnBrand_Apple.click();
+		
+	}
+	
+	public void validationForAppleBrand() 
+	{
+		for(WebElement product : products){
+	        Assert.assertTrue(product.getText().toLowerCase().contains("samsung"));
+	    }
+	}
+	
 
 	public void clickOnProductPrice() {
 		//page scroll down

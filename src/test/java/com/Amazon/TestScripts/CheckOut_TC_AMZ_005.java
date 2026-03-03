@@ -16,7 +16,7 @@ public class CheckOut_TC_AMZ_005 extends BaseClass{
 	public void checkOutProcess() throws InterruptedException 
 	{
 		checkoutprocess = new CheckoutProcess_PageObject(driver);
-		driver.get(url);
+		driver.get(amazonUrl);
 		logger.info("Url Open");
 		addToCart = new AddToCart_PageObject(driver);
 		addToCart.searchProduct("mobile");

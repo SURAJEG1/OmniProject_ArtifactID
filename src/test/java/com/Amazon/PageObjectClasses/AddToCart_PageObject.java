@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Amazon.Utilities.ScreenshotUtility;
 
+import ReusableComponents.ReusableMethods;
+
 public class AddToCart_PageObject {
 	
 	//Create object of local WebDriver
@@ -19,6 +21,7 @@ public class AddToCart_PageObject {
 	//Constructor
 	public AddToCart_PageObject(WebDriver rdriver) 
 	{
+		//super(rdriver);
 		this.driver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}

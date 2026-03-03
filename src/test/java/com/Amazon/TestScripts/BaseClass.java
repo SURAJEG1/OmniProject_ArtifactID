@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -18,7 +19,7 @@ public class BaseClass {
 	//Create Object of ReadConfig Class
 	
 	ReadConfig readConfig = new ReadConfig();
-	String url = readConfig.getBaseUrl();
+	String amazonUrl = readConfig.getBaseUrl();
 	String browser = readConfig.getBrowser();
 	
 	public static WebDriver driver;
@@ -57,9 +58,15 @@ public class BaseClass {
 	
 	
 	
+	public void titleValidation(String productPageTitle) 
+	{
+		Assert.assertTrue(driver.getTitle().contains(productPageTitle));
+	}
 	
-	
-	
+	public void pageScourceValication(String pageSource) 
+	{
+		Assert.assertTrue(driver.getPageSource().contains(pageSource));
+	}
 	
 	
 	
