@@ -6,10 +6,12 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.Amazon.TestScripts.login_TC_AMZ_001"/>
+      <class name="com.Amazon.TestScripts.CheckOut_TC_AMZ_005"/>
+      <class name="com.Amazon.TestScripts.AddToCart_TC_AMZ_004"/>
+      <class name="com.Amazon.TestScripts.ProductsSearch_TC_AMZ_003"/>
       <class name="com.Amazon.TestScripts.BaseClass"/>
-      <class name="com.Amazon.TestScripts.AddToCart_Test"/>
-      <class name="com.Amazon.TestScripts.SearchProducts"></class>
-      <class name="com.Amazon.TestScripts.CheckOut_Test"></class>
+      <class name="com.Amazon.TestScripts.VerifyFilterFunctionality_TC_AMZ_006"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

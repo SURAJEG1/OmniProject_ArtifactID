@@ -46,3 +46,21 @@
 [INFO ] 2026-03-06 17:49:56.514 [main] OmniProject_ArtifactID - Browser and Url Open 
 [INFO ] 2026-03-06 17:50:06.063 [main] OmniProject_ArtifactID - Enter Apple mobile on search box
 [INFO ] 2026-03-06 17:50:08.700 [main] OmniProject_ArtifactID - Applied filter on brand Apple
+[INFO ] 2026-03-06 18:06:08.945 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-03-06 18:06:16.781 [main] OmniProject_ArtifactID - Clicked on Accoount & List
+[INFO ] 2026-03-06 18:06:17.074 [main] OmniProject_ArtifactID - Enter Mobile no or Email id
+[INFO ] 2026-03-06 18:06:18.036 [main] OmniProject_ArtifactID - Clicked on ContinueBtn
+[INFO ] 2026-03-06 18:06:23.838 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-03-06 18:06:35.256 [main] OmniProject_ArtifactID - Enter mobile on searchBox and enter
+[INFO ] 2026-03-06 18:06:37.588 [main] OmniProject_ArtifactID - Clicked on Brands See more Option
+[INFO ] 2026-03-06 18:06:39.925 [main] OmniProject_ArtifactID - Selected Brand as POCO
+[INFO ] 2026-03-06 18:06:43.024 [main] OmniProject_ArtifactID - Clicked on Product Price link
+[INFO ] 2026-03-06 18:07:14.102 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-03-06 18:07:20.950 [main] OmniProject_ArtifactID - Enter 'mobile' on searchBox
+[INFO ] 2026-03-06 18:07:27.512 [main] OmniProject_ArtifactID - Clicked on AddToCart link
+[INFO ] 2026-03-06 18:07:33.792 [main] OmniProject_ArtifactID - Url Open
+[INFO ] 2026-03-06 18:07:44.731 [main] OmniProject_ArtifactID - Enter 'laptop' on searchBox
+[INFO ] 2026-03-06 18:07:44.774 [main] OmniProject_ArtifactID - validated open product page title
+[INFO ] 2026-03-06 18:07:50.406 [main] OmniProject_ArtifactID - Browser and Url Open 
+[INFO ] 2026-03-06 18:08:00.049 [main] OmniProject_ArtifactID - Enter Apple mobile on search box
+[INFO ] 2026-03-06 18:08:02.636 [main] OmniProject_ArtifactID - Applied filter on brand Apple
