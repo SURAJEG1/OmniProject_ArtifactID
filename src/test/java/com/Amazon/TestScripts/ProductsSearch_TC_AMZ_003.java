@@ -18,7 +18,7 @@ public class ProductsSearch_TC_AMZ_003 extends BaseClass{
 		logger.info("Url Open");
 		addToCart = new AddToCart_PageObject(driver);
 		addToCart.searchProduct("laptop");
-		logger.info("Enter 'laptop' on searchBox");
+		logger.info("Enter 'laptop' on searchBox and click");
 		titleValidation("laptop");
 		logger.info("validated open product page title");
 		

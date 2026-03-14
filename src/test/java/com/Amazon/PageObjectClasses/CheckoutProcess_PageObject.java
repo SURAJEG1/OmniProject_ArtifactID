@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.Amazon.Utilities.ScrollingWindow;
@@ -56,6 +57,8 @@ public class CheckoutProcess_PageObject {
 
 	@FindBy (xpath = "//input[@type='submit']") 
 	WebElement clickOnContinue;
+	
+	@FindBy (xpath = "//select[@id='s-result-sort-select']") WebElement sort;
 
 
 	//Action Methods
@@ -123,8 +126,11 @@ public class CheckoutProcess_PageObject {
 		clickOnContinue.click();
 	}
 
-
-
+	public void sortLowToHighTest() 
+	{
+		Select sc = new Select(sort);
+		sc.selectByVisibleText("Price: Low to High");
+	}
 
 
 

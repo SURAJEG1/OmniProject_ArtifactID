@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Amazon.TestScripts.VerifyFilterFunctionality_TC_AMZ_006">
+      <class name="com.Amazon.TestScripts.VerifySortFunctionality_TC_AMZ_007">
         <methods>
           <include name="tearDown"/>
-          <include name="filterByBrandTest"/>
+          <include name="shorPrisetLowToHighTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.Amazon.TestScripts.VerifyFilterFunctionality_TC_AMZ_006 -->
+      </class> <!-- com.Amazon.TestScripts.VerifySortFunctionality_TC_AMZ_007 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

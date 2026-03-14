@@ -12,6 +12,8 @@
       <class name="com.Amazon.TestScripts.ProductsSearch_TC_AMZ_003"/>
       <class name="com.Amazon.TestScripts.BaseClass"/>
       <class name="com.Amazon.TestScripts.VerifyFilterFunctionality_TC_AMZ_006"/>
+      <class name="com.Amazon.TestScripts.VerifySortFunctionality_TC_AMZ_007"/>
+      <class name="com.Amazon.TestScripts.VerifySortFunctionality_TC_AMZ_007"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
